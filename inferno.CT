@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="27">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>89725</ID>
+      <Description>"Click this box"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>89724</ID>
+          <Description>"THEN CLICK THIS ONE"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>8</ID>
+              <Description>"Start"</Description>
+              <LastState RealAddress="0000002F"/>
+              <VariableType>String</VariableType>
+              <Length>0</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"SoulcaliburVI.exe"+03F06CE0</Address>
+              <Offsets>
+                <Offset>2F</Offset>
+                <Offset>40</Offset>
+                <Offset>130</Offset>
+                <Offset>140</Offset>
+                <Offset>0</Offset>
+              </Offsets>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>9</ID>
+                  <Description>"WeaponID"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Option 1 - Default
+1:Option 2
+2:Option 3
+3:Option 4
+4:Option 5
+5:Option 6
+6:Option 7
+7:Nightmare/xianghua Option 8
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>10</ID>
+                  <Description>"Hit Effects"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">255:None
+0:Outrageous Pack
+1:Anime Pack
+2:Magic Pack
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>+5</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>11</ID>
+                  <Description>"Soul Charge Effects"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Normal
+1:Holy
+2:Evil
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>12</ID>
+                  <Description>"----------"</Description>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>38</ID>
+                  <Description>"Gender"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Male
+1:Female
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>40</ID>
+                  <Description>"NOW CLICK THIS ONE"</Description>
+                  <DropDownList ReadOnly="1" DisplayValueAsItem="1">0:Custom Soul
+1:Original Soul
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>+19-34</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>41</ID>
+                  <Description>"Race"</Description>
+                  <DropDownList ReadOnly="1" DisplayValueAsItem="1">0:Human
+1:Hidden Village Clan
+2:LostSoul Wings
+3:Outcast
+4:Malefic
+5:LostSoul Horned
+6:Revenant
+7:LizardMan
+8:Mummy
+9:Malfested
+10:Malfested (Mutated)
+11:Malfested (Transformed)
+12:Shapeshifter
+13:Colossus
+14:Automation
+15:DarkSider
+16:Original Soul
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>+19</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>39</ID>
+                  <Description>"----------"</Description>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>15</ID>
+                  <Description>"Height"</Description>
+                  <DropDownList DisplayValueAsItem="1">0:Short
+1:Slightly Short
+2:Average
+3:Slightly Tall
+4:Tall
+5:Original Soul
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>+29</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>16</ID>
+                  <Description>"Build"</Description>
+                  <DropDownList DisplayValueAsItem="1">0:Thin
+1:Average
+2:Thick-set
+3:Original Soul
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>383</ID>
+                  <Description>"Muscle Definition"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>22</ID>
+                  <Description>"Body sliders"</Description>
+                  <Options moHideChildren="1"/>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:
+??:
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>"SoulcaliburVI.exe"+0410EC68</Address>
+                  <Offsets>
+                    <Offset>3</Offset>
+                    <Offset>60</Offset>
+                    <Offset>40</Offset>
+                    <Offset>10</Offset>
+                    <Offset>A3E8</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>23</ID>
+                      <Description>"Upper Arms"</Description>
+                      <DropDownList DisplayValueAsItem="1">FFFFFFCD:Super Thin
+FFFFFFE2:Thin
+FFFFFFEC:Default MIN
+00000014:Default MAX
+00000022:Thick
+00000032:Super Thick
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+1</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>24</ID>
+                      <Description>"Forearms"</Description>
+                      <DropDownList DisplayValueAsItem="1">FFFFFFCD:Super Thin
+FFFFFFE2:Thin
+FFFFFFEC:Default MIN
+00000014:Default MAX
+00000022:Thick
+00000032:Super Thick
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+11</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>25</ID>
+                      <Description>"Pectorals"</Description>
+                      <DropDownList DisplayValueAsItem="1">FFFFFFCD:Super Thin
+FFFFFFE2:Thin
+FFFFFFEC:Default MIN
+00000014:Default MAX
+00000022:Thick
+00000032:Super Thick
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+21</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>26</ID>
+                      <Description>"Hips"</Description>
+                      <DropDownList DisplayValueAsItem="1">FFFFFFCD:Super Thin
+FFFFFFE2:Thin
+FFFFFFEC:Default MIN
+00000014:Default MAX
+00000022:Thick
+00000032:Super Thick
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+41</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>27</ID>
+                      <Description>"Thighs"</Description>
+                      <DropDownList DisplayValueAsItem="1">FFFFFFCD:Super Thin
+FFFFFFE2:Thin
+FFFFFFEC:Default MIN
+00000014:Default MAX
+00000022:Thick
+00000032:Super Thick
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+51</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>28</ID>
+                      <Description>"Calves"</Description>
+                      <DropDownList DisplayValueAsItem="1">FFFFFFCD:Super Thin
+FFFFFFE2:Thin
+FFFFFFEC:Default MIN
+00000014:Default MAX
+00000022:Thick
+00000032:Super Thick
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+61</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>29</ID>
+                      <Description>"Stomach"</Description>
+                      <DropDownList DisplayValueAsItem="1">FFFFFFCD:Super Thin
+FFFFFFE2:Thin
+FFFFFFEC:Default MIN
+00000014:Default MAX
+00000022:Thick
+00000032:Super Thick
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+71</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>30</ID>
+                      <Description>"Chest (Breasts)"</Description>
+                      <DropDownList DisplayValueAsItem="1">FFFFFFCD:Super Thin
+FFFFFFE2:Thin
+FFFFFFEC:Default MIN
+00000014:Default MAX
+00000022:Thick
+00000032:Super Thick
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+81</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>31</ID>
+                      <Description>"Waist"</Description>
+                      <DropDownList DisplayValueAsItem="1">FFFFFFCD:Super Thin
+FFFFFFE2:Thin
+FFFFFFEC:Default MIN
+00000014:Default MAX
+00000022:Thick
+00000032:Super Thick
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+31</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>32</ID>
+                  <Description>"----------"</Description>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>33</ID>
+                  <Description>"Voice Type"</Description>
+                  <DropDownList ReadOnly="1" DisplayValueAsItem="1">0:Young Adventurer
+1:Young Knight
+2:Scoundrel
+3:Cold-Hearted Assassin
+4:Dependable Leader
+5:Chied Villan
+6:Transcendental Being
+7:Veteran Knight
+8:Adventurous Youth
+9:Narcissist
+10:Wizened Warlord
+11:Middle-Aged Wildman
+12:Upbeat Girl
+13:Young Lady
+14:Tacturn Cynic
+15:Serious Type
+16:Elder Sister
+17:Veteran Knight
+18:Femme Fatale
+19:Transcendental Being
+20:Malicious Imp
+21:Daring Adventurer
+22:Cool-Headed Captain
+23:Zealot
+24:Lizardman
+25:Demihuman
+26:Alien
+27:*Blank* Loaded by Originals
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F9</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>42</ID>
+                  <Description>"Voice Speed/Pitch"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>+FD</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>251</ID>
+                      <Description>"Inverter - Speed"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">FF: Negative Value
+00: Positive Value
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+1</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>34</ID>
+                  <Description>"Vocal Pitch (Sub)"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>+101</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>422</ID>
+                      <Description>"Inverter - Pitch"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">FF: Negative Value
+00: Positive Value
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+1</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>35</ID>
+                  <Description>"Vocal Tone"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>+105</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>423</ID>
+                      <Description>"Inverter - Tone"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">FF: Negative Value
+00: Positive Value
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+1</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>36</ID>
+                  <Description>"Malfestation Level"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>+109</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>380</ID>
+                  <Description>"----------"</Description>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>346</ID>
+                  <Description>"Extra Equipment (Dropdown)"</Description>
+                  <Options moHideChildren="1"/>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:
+??:
+</DropDownList>
+                  <VariableType>Byte</VariableType>
+                  <Address>"SoulcaliburVI.exe"+04209240</Address>
+                  <Offsets>
+                    <Offset>3A7</Offset>
+                    <Offset>40</Offset>
+                    <Offset>130</Offset>
+                    <Offset>20</Offset>
+                    <Offset>138</Offset>
+                    <Offset>CD0</Offset>
+                    <Offset>20</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>348</ID>
+                      <Description>"Extra 1"</Description>
+                      <Options moHideChildren="1"/>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:
+??:
+</DropDownList>
+                      <VariableType>Byte</VariableType>
+                      <Address>+0</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>347</ID>
+                          <Description>"Equipped Location"</Description>
+                          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00:Head
+05:Chest
+01:Collarbone (Right)
+03:Shoulder (Right)
+06:Arm (Right)
+08:Hand (Right)
+02:Collarbone (Left)
+03:Shoulder (Left)
+07:Arm (Left)
+09:Hand (Left)
+0A:Hips
+0B:Thight (Right)
+0D:Knee (Right)
+0F:Foot (Right)
+0C:Thigh (Left)
+0E:Knee (Left)
+10:Foot (Left)
+11:None
+</DropDownList>
+                          <ShowAsHex>1</ShowAsHex>
+                          <VariableType>Byte</VariableType>
+                          <Address>+1</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>349</ID>
+                          <Description>"Move Right/Left"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+5</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>350</ID>
+                          <Description>"Move Up/Down"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+D</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>351</ID>
+                          <Description>"Move Forward/Backward"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+9</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>352</ID>
+                          <Description>"Width"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+1D</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>353</ID>
+                          <Description>"Length"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+25</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>354</ID>
+                          <Description>"Thickness"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+21</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>355</ID>
+                          <Description>"Rotate Vertically"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+11</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>357</ID>
+                          <Description>"Rotate Horizontally"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+19</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>356</ID>
+                          <Description>"Angle"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+15</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>358</ID>
+                      <Description>"Extra 2"</Description>
+                      <Options moHideChildren="1"/>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:
+??:
+</DropDownList>
+                      <VariableType>Byte</VariableType>
+                      <Address>+58</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>359</ID>
+                          <Description>"Equipped Location"</Description>
+                          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00:Head
+05:Chest
+01:Collarbone (Right)
+03:Shoulder (Right)
+06:Arm (Right)
+08:Hand (Right)
+02:Collarbone (Left)
+03:Shoulder (Left)
+07:Arm (Left)
+09:Hand (Left)
+0A:Hips
+0B:Thight (Right)
+0D:Knee (Right)
+0F:Foot (Right)
+0C:Thigh (Left)
+0E:Knee (Left)
+10:Foot (Left)
+11:None
+</DropDownList>
+                          <ShowAsHex>1</ShowAsHex>
+                          <VariableType>Byte</VariableType>
+                          <Address>+1</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>360</ID>
+                          <Description>"Move Right/Left"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+5</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>361</ID>
+                          <Description>"Move Up/Down"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+D</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>362</ID>
+                          <Description>"Move Forward/Backward"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+9</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>363</ID>
+                          <Description>"Width"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+1D</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>364</ID>
+                          <Description>"Length"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+25</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>365</ID>
+                          <Description>"Thickness"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+21</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>366</ID>
+                          <Description>"Rotate Vertically"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+11</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>367</ID>
+                          <Description>"Rotate Horizontally"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+19</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>368</ID>
+                          <Description>"Angle"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+15</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>369</ID>
+                      <Description>"Extra 3"</Description>
+                      <Options moHideChildren="1"/>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:
+??:
+</DropDownList>
+                      <VariableType>Byte</VariableType>
+                      <Address>+B0</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>370</ID>
+                          <Description>"Equipped Location"</Description>
+                          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00:Head
+05:Chest
+01:Collarbone (Right)
+03:Shoulder (Right)
+06:Arm (Right)
+08:Hand (Right)
+02:Collarbone (Left)
+03:Shoulder (Left)
+07:Arm (Left)
+09:Hand (Left)
+0A:Hips
+0B:Thight (Right)
+0D:Knee (Right)
+0F:Foot (Right)
+0C:Thigh (Left)
+0E:Knee (Left)
+10:Foot (Left)
+11:None
+</DropDownList>
+                          <VariableType>Byte</VariableType>
+                          <Address>+1</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>371</ID>
+                          <Description>"Move Right/Left"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+5</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>372</ID>
+                          <Description>"Move Up/Down"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+D</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>373</ID>
+                          <Description>"Move Forward/Backward"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+9</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>374</ID>
+                          <Description>"Width"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+1D</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>375</ID>
+                          <Description>"Length"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+25</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>376</ID>
+                          <Description>"Thickness"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+21</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>377</ID>
+                          <Description>"Rotate Vertically"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+11</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>378</ID>
+                          <Description>"Rotate Horizontally"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+19</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>379</ID>
+                          <Description>"Angle"</Description>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+15</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>89664</ID>
+                  <Description>"----------"</Description>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>newmem2</Name>
+      <Address>044A0000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>newmem3</Name>
+      <Address>01210020</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
+</CheatTable>
